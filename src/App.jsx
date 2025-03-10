@@ -56,7 +56,7 @@ const App = () => {
 
       <div id='about' className='mt-24 md:flex-row flex-col'>
         <h3 className="text-5xl text-center font-bold text-white">About Me</h3>
-        <div className='flex gap-4 rounded-md w-fit ml-36 mt-8 bg-black md:flex-row flex-col'>
+        <div className='flex gap-8 rounded-md mx-24 mt-8 bg-black md:flex-row flex-col'>
           <div>
             <img data-aos="zoom-in-right" className='md:w-60 w-40 rounded-md md:h-72 h-52 ml-8 mt-6 mb-6' src="../img/IMG_7263.JPG" alt="Profile image" />
           </div>
@@ -70,7 +70,7 @@ const App = () => {
         <h2 className='font-bold text-4xl text-center'>My Projects</h2>
         <p className="text-center pt-4 text-white">A showcase of my recent works and personal projects.</p>
       </div>
-      <div id='services' className='flex justify-between gap-8 border-2 rounded-md md:w-fit w-80 ml-36 mt-12 bg-black text-white md:flex-row flex-col'>
+      <div id='services' className='flex justify-between gap-8 border-2 rounded-md mx-20 mt-12 bg-black text-white md:flex-row flex-col'>
         <div>
           <h3 data-aos="zoom-in-right" className='md:text-5xl text-3xl text-center md:pl-24 pl-4 pt-12'><i>Skills & <br /> Proficiencies</i></h3>
         </div>
