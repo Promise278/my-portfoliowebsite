@@ -5,7 +5,7 @@ const App = () => {
     <div className='bg-gradient-to-r from-gray-200 to-gray-800'>
       <nav className='fixed inset-x-0 top-0 left-0 z-30 flex justify-between pt-6 pl-12 pr-12 h-20 backdrop-blur-sm'>
         <div>
-          <h3 className='text-2xl'>Promise Obi</h3>
+          <h3 className='md:text-2xl text-1xl'>Promise Obi</h3>
         </div>
         <div className='gap-8 flex'>
           <ul className='flex gap-10 md:flex hidden text-white'>
@@ -22,9 +22,9 @@ const App = () => {
         <div className='md:ml-0 ml-4'>
           <h3 className='text-5xl text-slate-900 font-bold pt-8'>Hi, I'm Promise Obi</h3>
           <p data-aos="flip-up" className='pt-8 text-1xl text-gray-100'>Frontend Developer specializing in React, Javascript, Tailwindcss <br /> and mordern UI frameworks, i also create modern & responsive websites.</p>
-          <div data-aos="zoom-in-right" className='flex gap-8 mt-8 mb-8'>
-            <button href='#projects' className='bg-[#0f172a] w-32 h-12 rounded-md gap-2 pl-5  pt-2.5 flex text-white hover:bg-blue-500 cursor-pointer'>Contact Me</button>
-            <button className='bg-white text-black w-48 h-12 rounded-md gap-2 pl-2.5 pt-2.5 flex hover:bg-purple-500 cursor-pointer'>Download Resume
+          <div data-aos="zoom-in-right" className='flex gap-2 mt-8 mb-8'>
+            <button href='#projects' className='bg-[#0f172a] w-32 h-12 rounded-md gap-2 pl-3.5 pt-2.5 flex text-white hover:bg-blue-500 cursor-pointer'>Contact Me</button>
+            <button className='bg-white text-black w-48 h-12 rounded-md gap-2 pl-2 pt-2.5 flex hover:bg-purple-500 cursor-pointer'>Download Resume
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>
             </button>
           </div>
@@ -56,7 +56,7 @@ const App = () => {
 
       <div id='about' className='mt-24 md:flex-row flex-col'>
         <h3 className="text-5xl text-center font-bold text-white">About Me</h3>
-        <div className='flex gap-8 rounded-md mx-24 mt-8 bg-black md:flex-row flex-col'>
+        <div className='flex gap-4 rounded-md w-fit ml-36 mt-8 bg-black md:flex-row flex-col'>
           <div>
             <img data-aos="zoom-in-right" className='md:w-60 w-40 rounded-md md:h-72 h-52 ml-8 mt-6 mb-6' src="../img/IMG_7263.JPG" alt="Profile image" />
           </div>
@@ -70,7 +70,7 @@ const App = () => {
         <h2 className='font-bold text-4xl text-center'>My Projects</h2>
         <p className="text-center pt-4 text-white">A showcase of my recent works and personal projects.</p>
       </div>
-      <div id='services' className='flex justify-between gap-8 border-2 rounded-md mx-20 mt-12 bg-black text-white md:flex-row flex-col'>
+      <div id='services' className='flex justify-between gap-8 border-2 rounded-md md:w-fit w-80 ml-36 mt-12 bg-black text-white md:flex-row flex-col'>
         <div>
           <h3 data-aos="zoom-in-right" className='md:text-5xl text-3xl text-center md:pl-24 pl-4 pt-12'><i>Skills & <br /> Proficiencies</i></h3>
         </div>
