@@ -17,7 +17,7 @@ const App = () => {
           </ul>
           <button className='bg-[#0f172a] text-white w-28 h-8 p-1 rounded-md shadow-md md:hover:bg-blue-500 cursor-pointer'><a href="#contact">Get in Touch</a></button>
         </div>
-        <ion-icon id="menu-open" className='text-white text-4xl md:hidden ml-2' name="reorder-two-outline"></ion-icon>
+        <ion-icon id="menu-open" className='text-white text-4xl md:hidden' name="reorder-two-outline"></ion-icon>
       </nav>
       <div id='home' data-aos="fade-up" className='pt-36 flex justify-around md:flex-row flex-col'>
         <div className='md:ml-0 ml-4'>
