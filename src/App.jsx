@@ -59,7 +59,7 @@ const App = () => {
         <h3 className="text-5xl text-center font-bold text-white">About Me</h3>
         <div data-aos="zoom-out-down" className='flex gap-8 rounded-md md:w-[80%] w-[90%] md:h-76 md:ml-32 ml-4 mt-8 bg-black md:flex-row flex-col'>
           <div>
-            <img data-aos="zoom-in-right" className='md:w-60 w-72 rounded-md md:h-72 h-72 ml-6 mt-6 mb-6' src="/img/IMG_7263.JPG" alt="Profile image" />
+            <img data-aos="zoom-in-right" className='md:w-60 w-72 rounded-md md:h-72 h-72 ml-4 mt-6 mb-6' src="/img/IMG_7263.JPG" alt="Profile image" />
           </div>
           <div>
             <p data-aos="zoom-in-up" className='text-white text-1xl md:pt-8 pt-2 pb-4 md:pl-0 pl-3'>Hi, I'm Promise, a web Developer passionate about crafting clean, functional and responsive websites. <br />  I specialize in creating  responsive and user-friendly designs with a strong focus on performance, accessibility, <br /> and seamless interaction. My approach blends simplicity with modern aesthetics, ensuring every project is <br /> intuitive and efficient. I enjoy turning ideas into reality, whether designing from scratch or improving existing <br /> layouts, I always aim for high-quality results. Staying ahead of trends and continuously learning new <br /> techniques helps me push creative boundaries and refine my skills.</p>
