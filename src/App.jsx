@@ -1,6 +1,12 @@
 import React from 'react'
 
+
 const App = () => {
+  let menuButton = document.getElementById("menu-open");
+
+  menuButton.onclick = () => {
+      menuButton.name = menuButton.name === "reorder-two-outline" ? "close" : "reorder-two-outline";
+  };
   return (
     <div className='bg-gradient-to-r from-gray-200 to-gray-800'>
       <nav className='fixed inset-x-0 top-0 left-0 z-30 flex justify-between pt-6 pl-12 pr-12 h-20 backdrop-blur-sm'>
@@ -16,7 +22,7 @@ const App = () => {
           </ul>
           <button className='bg-[#0f172a] text-white w-28 h-8 p-1 rounded-md shadow-md hover:bg-blue-500 cursor-pointer'>Get in Touch</button>
         </div>
-        <ion-icon className='text-black text-4xl md:hidden' name="reorder-two-outline"></ion-icon>
+        <ion-icon id="menu-open" className='text-black text-4xl md:hidden' name="reorder-two-outline"></ion-icon>
       </nav>
       <div id='home' data-aos="fade-up" className='pt-36 flex justify-around md:flex-row flex-col'>
         <div className='md:ml-0 ml-4'>
@@ -47,7 +53,7 @@ const App = () => {
           </div>
         </div>
         <div class="flex items-center justify-center p-4">
-          <img class="w-60 h-60 rounded-full border-4 border-gray-500 shadow-lg" src="../img/bl-_11_.png" alt="Profile Picture" />
+          <img class="w-60 h-60 rounded-full border-4 border-gray-500 shadow-lg" src="/img/bl-_11_.png" alt="Profile Picture" />
         </div>
       </div>
       <div className='mt-32 flex items-center justify-center pb-4 animate-bounce cursor-pointer'>
