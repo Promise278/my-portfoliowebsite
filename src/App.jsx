@@ -3,7 +3,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='bg-gradient-to-r from-gray-200 to-gray-800'>
+    <div className='bg-gradient-to-r from-gray-200 to-gray-800 overflow-hidden'>
       <nav className='fixed inset-x-0 top-0 left-0 z-30 flex justify-between pt-6 pl-12 pr-12 h-20 backdrop-blur-sm'>
         <div>
           <h3 className='md:text-3xl md:pr-0 pr-6 text-white text-1xl'>Promise Obi</h3>
