@@ -2,11 +2,6 @@ import React from 'react'
 
 
 const App = () => {
-  let menuButton = document.getElementById("menu-open");
-
-  menuButton.onclick = () => {
-      menuButton.name = menuButton.name === "reorder-two-outline" ? "close" : "reorder-two-outline";
-  };
   return (
     <div className='bg-gradient-to-r from-gray-200 to-gray-800'>
       <nav className='fixed inset-x-0 top-0 left-0 z-30 flex justify-between pt-6 pl-12 pr-12 h-20 backdrop-blur-sm'>
@@ -14,7 +9,7 @@ const App = () => {
           <h3 className='md:text-2xl text-1xl'>Promise Obi</h3>
         </div>
         <div className='gap-8 flex'>
-          <ul className='flex gap-10 md:flex hidden text-white'>
+          <ul className='gap-10 md:flex hidden text-white'>
             <li><a className='cursor-pointer hover:uppercase' href="#home">Home</a></li>
             <li><a className='cursor-pointer hover:uppercase' href="#projects">Projects</a></li>
             <li><a className='cursor-pointer hover:uppercase' href="#services">Skills</a></li>
@@ -53,7 +48,7 @@ const App = () => {
           </div>
         </div>
         <div class="flex items-center justify-center p-4">
-          <img class="w-60 h-60 rounded-full border-4 border-gray-500 shadow-lg" src="/img/bl-_11_.png" alt="Profile Picture" />
+          <img class="w-60 h-60 rounded-full border-4 border-gray-500 shadow-lg" src="../img/bl-_11_.png" alt="Profile Picture" />
         </div>
       </div>
       <div className='mt-32 flex items-center justify-center pb-4 animate-bounce cursor-pointer'>
