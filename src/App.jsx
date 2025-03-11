@@ -102,7 +102,7 @@ const App = () => {
           <input className='bg-black border-2 border-gray-800 rounded-md md:w-96 w-60 text-white h-10 pl-2' required type="text" placeholder='Name' /> <br />
           <input className='bg-black border-2 border-gray-800 rounded-md md:w-96 w-60 text-white h-10 pl-2 mt-4' required type="email" placeholder='Email' /> <br />
           <input className='bg-black border-2 border-gray-800 rounded-md md:w-96 w-60 text-white h-10 pl-2 mt-4' required type="Subject" placeholder='Subject' /> <br />
-          <textarea className='bg-black border-2 border-gray-800 rounded-md md:w-96 w-60 text-white h-32 mt-4' required name="" placeholder="Write your message"></textarea>
+          <textarea className='bg-black border-2 border-gray-800 rounded-md md:w-96 w-60 text-white h-32 mt-4 pl-2 pt-2' required name="" placeholder="Write your message"></textarea>
           <button className='bg-white text-black hover:bg-gray-800 text-2xl hover:text-white h-12 pt-1 md:w-96 w-60 rounded-md md:mt-6 mt-4 md:mb-0 mb-4' type='submit'>Submit</button>
         </div>
       </div>
