@@ -29,7 +29,7 @@ const App = () => {
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>
             </button>
           </div>
-          <div data-aos="zoom-in-left" className='flex gap-6 mb-8'>
+          <div data-aos="zoom-in-right" className='flex gap-6 mb-8'>
             <a href="https://github.com/Promise278">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-black hover:text-gray-600" viewBox="0 0 24 24" fill="currentColor">
                 <path fill-rule="evenodd" d="M12 .5C5.59.5.5 5.59.5 12c0 5.08 3.29 9.38 7.86 10.91.58.11.79-.25.79-.56v-2.16c-3.2.69-3.87-1.44-3.87-1.44-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.69.08-.69 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.25 3.33.96.1-.73.4-1.25.73-1.54-2.56-.29-5.26-1.28-5.26-5.67 0-1.25.44-2.27 1.18-3.07-.12-.29-.52-1.46.12-3.04 0 0 .98-.31 3.22 1.17.93-.26 1.92-.39 2.91-.39s1.98.13 2.91.39c2.24-1.48 3.22-1.17 3.22-1.17.64 1.58.24 2.75.12 3.04.74.8 1.18 1.82 1.18 3.07 0 4.41-2.7 5.38-5.27 5.66.42.36.79 1.08.79 2.17v3.22c0 .31.21.68.8.56A10.514 10.514 0 0023.5 12C23.5 5.59 18.41.5 12 .5z" clip-rule="evenodd"/>
@@ -96,7 +96,7 @@ const App = () => {
       </div>
       <div id='contact' data-aos="zoom-out-up" className='md:w-[80%] w-[90%] md:h-76 bg-black mt-32 flex gap-6 rounded-md md:ml-32 ml-6 md:flex-row flex-col'>
         <div>
-          <h3 className='font-bold text-5xl md:pl-24 pl-8 text-white md:pt-44 pt-12'>Let's Connect and Collaborate</h3>
+          <h3 className='font-bold md:text-5xl text-3xl md:pl-24 pl-8 text-white md:pt-44 pt-12'>Let's Connect and Collaborate</h3>
         </div>
         <div className='md:mt-12 mt-4 md:pl-0 pl-6'>
           <input className='bg-black border-2 border-gray-800 rounded-md md:w-96 w-60 text-white h-10 pl-2' required type="text" placeholder='Name' /> <br />
