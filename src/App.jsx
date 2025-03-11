@@ -73,7 +73,7 @@ const App = () => {
       </div>
       <div id='services' data-aos="zoom-in-down" className='flex justify-between gap-8 border-2 rounded-md md:w-[80%] w-[90%] md:h-76 md:ml-32 ml-4 mt-12 bg-black text-white md:flex-row flex-col'>
         <div>
-          <h3 data-aos="zoom-in-right" className='md:text-5xl text-3xl text-center md:pl-24 pl-2 pt-12'><i>Skills & <br /> Proficiencies</i></h3>
+          <h3 data-aos="zoom-in-right" className='md:text-5xl text-3xl text-center md:pl-24 pl-2 pt-12'><i>Skills & <br /> Ability</i></h3>
         </div>
         <div data-aos="zoom-in-left" className='flex gap-6 pt-8 pb-8 mr-12 md:flex-row flex-col'>
           <div className='flex gap-6'>
