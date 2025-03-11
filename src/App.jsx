@@ -62,7 +62,7 @@ const App = () => {
             <img data-aos="zoom-in-right" className='md:w-60 w-72 rounded-md md:h-72 h-72 ml-8 mt-6 mb-6' src="../img/IMG_7263.JPG" alt="Profile image" />
           </div>
           <div>
-            <p data-aos="zoom-in-up" className='text-white text-1xl md:pt-8 pt-2 pb-4 md:pl-0 pl-4'>Hi, I'm Promise, a web Developer passionate about crafting clean, functional and responsive websites. <br />  I specialize in creating  responsive and user-friendly designs with a strong focus on performance, accessibility, <br /> and seamless interaction. My approach blends simplicity with modern aesthetics, ensuring every project is <br /> intuitive and efficient. I enjoy turning ideas into reality, whether designing from scratch or improving existing <br /> layouts, I always aim for high-quality results. Staying ahead of trends and continuously learning new <br /> techniques helps me push creative boundaries and refine my skills.</p>
+            <p data-aos="zoom-in-up" className='text-white text-1xl md:pt-8 pt-2 pb-4 md:pl-0 pl-3'>Hi, I'm Promise, a web Developer passionate about crafting clean, functional and responsive websites. <br />  I specialize in creating  responsive and user-friendly designs with a strong focus on performance, accessibility, <br /> and seamless interaction. My approach blends simplicity with modern aesthetics, ensuring every project is <br /> intuitive and efficient. I enjoy turning ideas into reality, whether designing from scratch or improving existing <br /> layouts, I always aim for high-quality results. Staying ahead of trends and continuously learning new <br /> techniques helps me push creative boundaries and refine my skills.</p>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div id='contact' data-aos="zoom-out-up" className='md:w-[80%] w-[90%] md:h-76 bg-black mt-32 flex gap-6 rounded-md md:ml-32 ml-6 md:flex-row flex-col'>
+      <div id='contact' data-aos="zoom-out-up" className='md:w-[80%] w-[90%] md:h-76 bg-black mt-32 flex gap-6 rounded-md md:ml-32 ml-4 md:flex-row flex-col'>
         <div>
           <h3 className='font-bold md:text-5xl text-3xl md:pl-24 pl-8 text-white md:pt-44 pt-12'>Let's Connect and Collaborate</h3>
         </div>
