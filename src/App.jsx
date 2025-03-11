@@ -15,7 +15,7 @@ const App = () => {
             <li><a className='cursor-pointer hover:uppercase' href="#services">Skills</a></li>
             <li><a className='cursor-pointer hover:uppercase' href="#about">About</a></li>
           </ul>
-          <button className='bg-[#0f172a] text-white w-28 h-8 p-1 rounded-md shadow-md hover:bg-blue-500 cursor-pointer'>Get in Touch</button>
+          <button className='bg-[#0f172a] text-white w-28 h-8 p-1 rounded-md shadow-md md:hover:bg-blue-500 cursor-pointer'><a href="#contact">Get in Touch</a></button>
         </div>
         <ion-icon id="menu-open" className='text-white text-4xl md:hidden' name="reorder-two-outline"></ion-icon>
       </nav>
@@ -24,8 +24,8 @@ const App = () => {
           <h3 className='text-6xl text-slate-900 font-bold pt-8'>Hi, I'm Promise Obi</h3>
           <p data-aos="flip-up" className='pt-8 text-1xl text-gray-100'>Frontend Developer specializing in React, Javascript, Tailwindcss <br /> and mordern UI frameworks, i also create modern & responsive websites.</p>
           <div data-aos="zoom-in-right" className='flex gap-2 mt-8 mb-8'>
-            <button className='bg-[#0f172a] w-32 h-12 rounded-md gap-2 pl-3.5 pt-2.5 flex text-white hover:bg-blue-500 cursor-pointer'><a href="#contact">Contact Me</a></button>
-            <button className='bg-white text-black w-48 h-12 rounded-md gap-2 pl-2 pt-2.5 flex hover:bg-purple-500 cursor-pointer'>Download Resume
+            <button className='bg-[#0f172a] w-28 h-12 rounded-md gap-2 pl-3.5 pt-2.5 flex text-white md:hover:bg-blue-500 cursor-pointer'><a href="#contact">Contact Me</a></button>
+            <button className='bg-white text-black w-48 h-12 rounded-md gap-2 pl-2 pt-2.5 flex md:hover:bg-purple-500 cursor-pointer'>Download Resume
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>
             </button>
           </div>
