@@ -48,7 +48,7 @@ const App = () => {
           </div>
         </div>
         <div class="flex items-center justify-center p-4">
-          <img class="w-72 h-72 rounded-full border-4 border-gray-500 shadow-lg" src="/public/img/profile.png" alt="Profile Picture" />
+          <img class="w-72 h-72 rounded-full border-4 border-gray-500 shadow-lg" src="/public/profile.png" alt="Profile Picture" />
         </div>
       </div>
       <div className='mt-32 flex items-center justify-center pb-4 animate-bounce cursor-pointer'>
